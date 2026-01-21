@@ -82,7 +82,7 @@ export function Footer({ isDarkMode }: FooterProps) {
               <div className="flex items-center space-x-2">
                 <span className="text-sm">📞</span>
                 <span className={`text-sm ${isDarkMode ? 'text-purple-200' : 'text-gray-600'}`}>
-                  +91 98765 43210
+                  +91 8488848354
                 </span>
               </div>
               <div className="flex items-center space-x-2">
