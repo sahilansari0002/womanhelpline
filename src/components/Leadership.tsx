@@ -41,9 +41,14 @@ export function Leadership({ isDarkMode }: LeadershipProps) {
           </div>
 
           {/* Profile Image Placeholder */}
-          <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-r from-rose-400 to-purple-400 rounded-full flex items-center justify-center shadow-xl">
-            <span className="text-6xl">👩‍💼</span>
-          </div>
+          <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-r from-rose-400 to-purple-400 rounded-full flex items-center justify-center shadow-xl overflow-hidden">
+  <img
+    src="/farha.jpeg"
+    alt="Women Empowerment"
+    className="w-full h-full object-cover"
+  />
+</div>
+
 
           {/* Content */}
           <h3 className={`text-3xl font-bold mb-2 ${
