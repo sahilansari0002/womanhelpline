@@ -100,7 +100,7 @@ export function Footer({ isDarkMode }: FooterProps) {
               <div className="flex items-center space-x-2">
                 <span className="text-sm">💬</span>
                 <a
-                  href="https://wa.me/919876543210"
+                  href="https://wa.me/918488848354"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`text-sm transition-colors hover:underline ${
