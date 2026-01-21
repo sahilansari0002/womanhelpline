@@ -129,7 +129,7 @@ export function Footer({ isDarkMode }: FooterProps) {
                 href="tel:100"
                 className="px-4 py-2 bg-gradient-to-r from-red-500 to-rose-600 text-white text-sm font-medium rounded-full hover:shadow-lg transition-all duration-300"
               >
-                Police: 100
+                Police: 102
               </a>
               <a
                 href="tel:1091"

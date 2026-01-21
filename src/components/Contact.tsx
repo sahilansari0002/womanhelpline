@@ -321,6 +321,39 @@ export function Contact({ isDarkMode }: ContactProps) {
                 💬 {t('contact.chatWhatsapp')}
               </a>
             </div>
+{/* Instagram Contact */}
+<div className={`p-8 rounded-3xl backdrop-blur-md transition-all duration-500 hover:scale-[1.02] ${
+  isDarkMode 
+    ? 'bg-pink-900/20 border border-pink-400/30 hover:bg-pink-900/30' 
+    : 'bg-pink-50 border border-pink-200 hover:bg-pink-100'
+}`}>
+  <div className="flex items-center mb-4">
+    <div className="w-12 h-12 bg-gradient-to-r from-pink-500 via-purple-500 to-orange-400 rounded-full flex items-center justify-center mr-4 transition-transform duration-300 hover:scale-110 hover:rotate-12">
+      <span className="text-white text-xl">📸</span>
+    </div>
+    <h3 className={`text-xl font-bold ${
+      isDarkMode ? 'text-white' : 'text-gray-800'
+    }`}>
+      {t('contact.instagram')}
+    </h3>
+  </div>
+
+  <p className={`text-base mb-4 ${
+    isDarkMode ? 'text-pink-200' : 'text-pink-700'
+  }`}>
+    {t('contact.instagramText')}
+  </p>
+
+  <a
+    href="https://www.instagram.com/sultana_hanif_malik_786/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block w-full py-3 bg-gradient-to-r from-pink-500 via-purple-500 to-orange-400 text-white font-semibold rounded-xl text-center hover:shadow-lg transition-all duration-300 hover:scale-105 active:scale-95"
+  >
+    📸 {t('contact.followInstagram')}
+  </a>
+</div>
+
 
             {/* Office Contact */}
             <div className={`p-8 rounded-3xl backdrop-blur-md transition-all duration-500 hover:scale-[1.02] ${
