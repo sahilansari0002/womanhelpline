@@ -312,7 +312,7 @@ export function Contact({ isDarkMode }: ContactProps) {
                 {t('contact.whatsappText')}
               </p>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/918488848354"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full py-3 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold rounded-xl text-center hover:shadow-lg transition-all duration-300 hover:scale-105 active:scale-95"
@@ -367,7 +367,7 @@ export function Contact({ isDarkMode }: ContactProps) {
                   <span className="text-lg mr-3 transition-transform duration-300 group-hover:scale-125">📞</span>
                   <div>
                     <p className={`font-medium ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>
-                      +91 98765 43210
+                      +91 8488848354
                     </p>
                     <p className={`text-sm ${isDarkMode ? 'text-purple-200' : 'text-gray-600'}`}>
                       {t('contact.helpline')}
