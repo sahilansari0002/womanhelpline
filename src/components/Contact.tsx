@@ -276,11 +276,12 @@ export function Contact({ isDarkMode }: ContactProps) {
               </p>
               <div className="space-y-2">
                 <a
-                  href="tel:100"
-                  className="block w-full py-3 bg-gradient-to-r from-red-500 to-rose-600 text-white font-semibold rounded-xl text-center hover:shadow-lg transition-all duration-300 hover:scale-105 active:scale-95"
-                >
-                  📞 {t('contact.police')}
-                </a>
+  href="tel:102"
+  className="block w-full py-3 bg-gradient-to-r from-red-500 to-rose-600 text-white font-semibold rounded-xl text-center"
+>
+  📞 102
+</a>
+
                 <a
                   href="tel:1091"
                   className="block w-full py-3 bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-semibold rounded-xl text-center hover:shadow-lg transition-all duration-300 hover:scale-105 active:scale-95"
