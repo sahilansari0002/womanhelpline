@@ -37,14 +37,15 @@ export function Hero({ isDarkMode }: HeroProps) {
 
   return (
     <section 
-      id="home" 
-      ref={heroRef}
-      className={`relative min-h-screen flex items-center justify-center overflow-hidden ${
-        isDarkMode 
-          ? 'bg-gradient-to-br from-purple-900 via-indigo-900 to-purple-800' 
-          : 'bg-gradient-to-br from-rose-100 via-pink-100 to-purple-100'
-      }`}
-    >
+  id="home" 
+  ref={heroRef}
+  className={`relative min-h-[100svh] flex items-start md:items-center justify-center overflow-hidden pt-28 md:pt-0 ${
+    isDarkMode 
+      ? 'bg-gradient-to-br from-purple-900 via-indigo-900 to-purple-800' 
+      : 'bg-gradient-to-br from-rose-100 via-pink-100 to-purple-100'
+  }`}
+>
+
       {/* 3D Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Floating hearts */}
@@ -129,11 +130,12 @@ export function Hero({ isDarkMode }: HeroProps) {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         {/* Main Heading */}
         <div className="mb-8">
-          <h1 className={`text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight ${
-            isDarkMode 
-              ? 'text-transparent bg-clip-text bg-gradient-to-r from-rose-300 via-purple-300 to-pink-300' 
-              : 'text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-purple-600 to-pink-600'
-          }`}>
+        <h1 className={`text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight ${
+  isDarkMode 
+    ? 'text-transparent bg-clip-text bg-gradient-to-r from-rose-300 via-purple-300 to-pink-300'
+    : 'text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-purple-600 to-pink-600'
+}`}>
+
             {t('hero.title1')}
             <br />
             <span className="relative">
