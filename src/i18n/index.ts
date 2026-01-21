@@ -57,6 +57,74 @@ const resources = {
           empowerment: "Pan-India women empowerment"
         }
       },
+      leadership: {
+  title: "Our Leadership",
+  name: "Sultana Hanif Malek",
+  role: "Mahila President",
+  description:
+    "A dedicated leader committed to women's dignity, justice, and empowerment. With years of experience in social work and women's rights advocacy, she leads our mission to create a safer world for every woman.",
+  quote:
+    "Every woman deserves to live with dignity, safety, and hope. Our work is not just about solving problems — it's about transforming lives.",
+  qualities: {
+    empowerment: {
+      title: "Empowerment",
+      desc: "Inspiring strength in every woman"
+    },
+    justice: {
+      title: "Justice",
+      desc: "Fighting for equal rights"
+    },
+    compassion: {
+      title: "Compassion",
+      desc: "Leading with empathy and care"
+    }
+  }
+},
+whoWeHelp: {
+  title: "Who We Help",
+  quote: "Age doesn't matter. Pain doesn't need permission.",
+  subtitle:
+    "We support women and girls of all ages, backgrounds, and circumstances. Every story matters, every voice deserves to be heard.",
+
+  groups: {
+    girls: {
+      title: "Girls",
+      age: "Ages 10–18",
+      desc: "Young girls facing educational barriers, early marriage pressure, or family conflicts."
+    },
+    youngWomen: {
+      title: "Young Women",
+      age: "Ages 18–30",
+      desc: "Women starting their careers, facing workplace harassment, or relationship issues."
+    },
+    marriedWomen: {
+      title: "Married Women",
+      age: "All Ages",
+      desc: "Women dealing with domestic violence, marital disputes, or in-law problems."
+    },
+    divorcedWomen: {
+      title: "Divorced Women",
+      age: "All Ages",
+      desc: "Women seeking support during or after divorce, custody battles, or financial struggles."
+    },
+    elderWomen: {
+      title: "Elder Women",
+      age: "Ages 60+",
+      desc: "Senior women facing neglect, property disputes, or health-related challenges."
+    }
+  },
+
+  beyondTitle: "Beyond Categories, Beyond Boundaries",
+  beyondText:
+    "Whether you're a student facing harassment, a working woman dealing with discrimination, a mother protecting her children, or a grandmother fighting for your rights — we are here for you.",
+
+  pillars: {
+    strength: "Strength",
+    protection: "Protection",
+    care: "Care",
+    justice: "Justice"
+  }
+},
       // Services
       services: {
         title: "Our Services",
@@ -124,6 +192,59 @@ contact: {
   instagramText: "Follow us on Instagram for updates, events, and women empowerment stories.",
   followInstagram: "Follow on Instagram"
 },
+impact: {
+  title: "Our Impact Across India",
+  subtitle:
+    "From Surat to every corner of India, our mission reaches women who need support, justice, and empowerment.",
+
+  stats: {
+    womenSupported: "Women Supported",
+    familiesHelped: "Families Helped",
+    casesResolved: "Cases Resolved",
+    marriagesSupported: "Marriages Supported"
+  },
+
+  presenceTitle: "Pan-India Presence",
+
+  areas: {
+    gujarat: {
+      title: "Gujarat",
+      highlight: "Primary Hub",
+      desc: "Our home base in Surat with extensive local networks"
+    },
+    maharashtra: {
+      title: "Maharashtra",
+      highlight: "Major Cities",
+      desc: "Strong presence in Mumbai and Pune regions"
+    },
+    delhi: {
+      title: "Delhi NCR",
+      highlight: "Policy Center",
+      desc: "Capital region support and advocacy work"
+    },
+    south: {
+      title: "South India",
+      highlight: "Growing Network",
+      desc: "Expanding reach in Karnataka, Tamil Nadu, and Kerala"
+    },
+    north: {
+      title: "North India",
+      highlight: "Rural Focus",
+      desc: "Support networks in Punjab, Haryana, and UP"
+    },
+    east: {
+      title: "East India",
+      highlight: "New Frontiers",
+      desc: "Emerging presence in West Bengal and Odisha"
+    }
+  },
+
+  ctaTitle: "Join Our Mission",
+  ctaText:
+    "Help us expand our reach and impact. Whether through donations, volunteering, or spreading awareness, every contribution makes a difference in a woman's life.",
+  donate: "Donate Now",
+  volunteer: "Volunteer With Us"
+},
       // Common
       common: {
         loading: "Loading...",
@@ -187,6 +308,75 @@ contact: {
           empowerment: "સમગ્ર ભારતમાં મહિલા સશક્તિકરણ"
         }
       },
+      // Leadership Section
+leadership: {
+  title: "અમારું નેતૃત્વ",
+  name: "સુલતાના હનીફ માલેક",
+  role: "મહિલા પ્રમુખ",
+  description:
+    "મહિલાઓના ગૌરવ, ન્યાય અને સશક્તિકરણ માટે સમર્પિત નેતા. સામાજિક સેવા અને મહિલા અધિકાર ક્ષેત્રમાં વર્ષોનો અનુભવ ધરાવતા, તેઓ દરેક મહિલાને સુરક્ષિત અને સન્માનભર્યું જીવન મળે તે માટે અમારી મિશનનું નેતૃત્વ કરે છે.",
+  quote:
+    "દરેક મહિલાને ગૌરવ, સુરક્ષા અને આશા સાથે જીવવાનો અધિકાર છે. અમારું કાર્ય માત્ર સમસ્યાઓ હલ કરવાનો નથી — પરંતુ જીવનમાં પરિવર્તન લાવવાનો છે.",
+  qualities: {
+    empowerment: {
+      title: "સશક્તિકરણ",
+      desc: "દરેક મહિલામાં આત્મવિશ્વાસ અને શક્તિ પ્રેરિત કરવી"
+    },
+    justice: {
+      title: "ન્યાય",
+      desc: "સમાન અધિકારો માટે અડગ સંઘર્ષ"
+    },
+    compassion: {
+      title: "કરુણા",
+      desc: "સંવેદના અને સંભાળ સાથે નેતૃત્વ"
+    }
+  }
+},
+whoWeHelp: {
+  title: "અમે કોને મદદ કરીએ છીએ",
+  quote: "ઉંમર મહત્વની નથી. પીડાને પરવાનગીની જરૂર નથી.",
+  subtitle:
+    "અમે દરેક ઉંમર, પૃષ્ઠભૂમિ અને પરિસ્થિતિની મહિલાઓ અને છોકરીઓને સહાય કરીએ છીએ. દરેક કહાની મહત્વપૂર્ણ છે, દરેક અવાજ સાંભળવા લાયક છે.",
+
+  groups: {
+    girls: {
+      title: "છોકરીઓ",
+      age: "ઉંમર 10–18 વર્ષ",
+      desc: "શિક્ષણમાં અવરોધો, વહેલા લગ્નનો દબાણ અથવા કુટુંબિક સમસ્યાઓનો સામનો કરતી નાની છોકરીઓ."
+    },
+    youngWomen: {
+      title: "યુવાન મહિલાઓ",
+      age: "ઉંમર 18–30 વર્ષ",
+      desc: "કારકિર્દીની શરૂઆત કરતી, કાર્યસ્થળ પર સતામણી અથવા સંબંધિત સમસ્યાઓનો સામનો કરતી મહિલાઓ."
+    },
+    marriedWomen: {
+      title: "વિવાહિત મહિલાઓ",
+      age: "બધી ઉંમર",
+      desc: "ઘરેલું હિંસા, વૈવાહિક વિવાદો અથવા સાસરિયા સંબંધિત સમસ્યાઓનો સામનો કરતી મહિલાઓ."
+    },
+    divorcedWomen: {
+      title: "છૂટાછેડા લીધેલી મહિલાઓ",
+      age: "બધી ઉંમર",
+      desc: "છૂટાછેડા દરમિયાન અથવા બાદમાં, સંતાનની કસ્ટડી અથવા આર્થિક મુશ્કેલીઓનો સામનો કરતી મહિલાઓ."
+    },
+    elderWomen: {
+      title: "વૃદ્ધ મહિલાઓ",
+      age: "ઉંમર 60 વર્ષથી વધુ",
+      desc: "અવગણના, મિલ્કત સંબંધિત વિવાદો અથવા આરોગ્ય સંબંધિત પડકારોનો સામનો કરતી વરિષ્ઠ મહિલાઓ."
+    }
+  },
+
+  beyondTitle: "શ્રેણીઓથી પરે, સીમાઓથી પરે",
+  beyondText:
+    "તમે સતામણીનો સામનો કરતી વિદ્યાર્થી હો, ભેદભાવ સહન કરતી કામકાજ કરતી મહિલા હો, તમારા બાળકોની રક્ષા કરતી માતા હો અથવા તમારા અધિકારો માટે લડતી દાદી હો — અમે તમારા માટે અહીં છીએ.",
+
+  pillars: {
+    strength: "શક્તિ",
+    protection: "સુરક્ષા",
+    care: "સંભાળ",
+    justice: "ન્યાય"
+  }
+},
       // Services
       services: {
         title: "અમારી સેવાઓ",
@@ -219,6 +409,59 @@ contact: {
         needHelpText: "રાહ ન જુઓ. ગુપ્ત સહાય અને માર્ગદર્શન માટે હવે અમારો સંપર્ક કરો.",
         emergencyCall: "કટોકટી કૉલ"
       },
+impact: {
+  title: "સમગ્ર ભારતમાં અમારી અસર",
+  subtitle:
+    "સુરતથી લઈને ભારતના દરેક ખૂણે સુધી, અમારી મિશન સહાય, ન્યાય અને સશક્તિકરણની જરૂર ધરાવતી મહિલાઓ સુધી પહોંચે છે.",
+
+  stats: {
+    womenSupported: "મહિલાઓને સહાય",
+    familiesHelped: "પરિવારોને સહાય",
+    casesResolved: "કેસો ઉકેલાયા",
+    marriagesSupported: "લગ્નોમાં સહાય"
+  },
+
+  presenceTitle: "સમગ્ર ભારતમાં હાજરી",
+
+  areas: {
+    gujarat: {
+      title: "ગુજરાત",
+      highlight: "મુખ્ય કેન્દ્ર",
+      desc: "સુરતમાં સ્થિત અમારું મુખ્ય કાર્યાલય અને વ્યાપક સ્થાનિક નેટવર્ક"
+    },
+    maharashtra: {
+      title: "મહારાષ્ટ્ર",
+      highlight: "મુખ્ય શહેરો",
+      desc: "મુંબઈ અને પુણે વિસ્તારમાં મજબૂત હાજરી"
+    },
+    delhi: {
+      title: "દિલ્લી એનસીઆર",
+      highlight: "નીતિ કેન્દ્ર",
+      desc: "રાજધાની વિસ્તારમાં સહાય અને વકીલાત કાર્ય"
+    },
+    south: {
+      title: "દક્ષિણ ભારત",
+      highlight: "વિકસતું નેટવર્ક",
+      desc: "કર્ણાટક, તમિલનાડુ અને કેરળમાં વિસ્તરતું કાર્ય"
+    },
+    north: {
+      title: "ઉત્તર ભારત",
+      highlight: "ગ્રામ્ય કેન્દ્રિત",
+      desc: "પંજાબ, હરિયાણા અને ઉત્તર પ્રદેશમાં સહાય નેટવર્ક"
+    },
+    east: {
+      title: "પૂર્વ ભારત",
+      highlight: "નવા વિસ્તારો",
+      desc: "પશ્ચિમ બંગાળ અને ઓડિશામાં ઉદયમાન હાજરી"
+    }
+  },
+
+  ctaTitle: "અમારા મિશનમાં જોડાઓ",
+  ctaText:
+    "અમારી પહોંચ અને અસર વિસ્તૃત કરવામાં અમારી મદદ કરો. દાન, સ્વયંસેવક તરીકે જોડાઈને અથવા જાગૃતિ ફેલાવીને—દરેક યોગદાન એક મહિલાના જીવનમાં ફેરફાર લાવે છે.",
+  donate: "હવે દાન કરો",
+  volunteer: "અમારી સાથે સ્વયંસેવક બનો"
+},
       // Contact
       contact: {
         title: "મદદ અને સહાય મેળવો",
